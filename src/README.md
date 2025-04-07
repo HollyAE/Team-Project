@@ -1,8 +1,4 @@
-# SH21 Main
-
-This is the main project Repository for team SH21
-
-To setup this repository for development, clone this repo, and install the dependencies with npm:
+To set up this repository for development, clone this repo, and install the dependencies with npm:
 
 ```bash
 npm i
