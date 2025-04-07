@@ -1,0 +1,263 @@
+* db074db Fixed refs and created removal method
+* d314397 CV Functionality Nearly Done, refs need fixed
+* 0c1abf1 Created CV Type and started using
+* acf9f6f Updated todo list
+* 98a249e References done
+* d9b8396 More CV Changes
+* 20987c1 Started making some changes on the CV Builder
+* b4824a6 fixed some imports
+* 7ae0aaa interface changes
+* 96737ee Updates
+* 1d3f2c4 Applying and rejecting via swipe, need to work on setting empty app and rej arrays on sign up
+* 0f1054d fixed linting/build errors
+*   2e1ab81 Merge branch 'testSuite' into 'main'
+|\  
+| *   3cfde49 Merge branch 'testSuite' of stgit.dcs.gla.ac.uk:team-project-h/2022/sh21/sh21-main into testSuite
+| |\  
+| * | 2c197f6 modal and scroll tests working
+| * | c3a85f2 carousel test done
+* | |   0522c90 Merge branch 'auth-review' into 'main'
+|\ \ \  
+| * | | 91c2bf1 reviewed use of useContext only used in deprecated CreateProfile component
+| * | | 47aed16 Slight problem with updating fields, but users integrated
+| * | |   8e63011 Merged in apply
+| |\ \ \  
+| | * | | b063214 Job Random Generation and Reset to Original Fakes implemented
+| | * | | fc9a429 Fakes in Firebase, Job Categorys added and filtering, useJobs hook
+| * | | | de1289a Users linked up, now working on adding users on sign up
+| * | | | 5614174 minor patch
+| * | | | 7d9d720 refactored signup
+| * | | |   27cfc29 Merge branch 'main' into auth-review
+| |\ \ \ \  
+| * | | | | bab7c7b found typo
+* | | | | | 042ed38 GDSFHSKJDHSU
+* | | | | | 3f22890 Change useModal for practise
+* | | | | | 36d0453 Pipeline fix 100
+* | | | | | 6e8831f pipelinefix 3a
+* | | | | |   93fc136 Merge branch 'CVBuilder' into 'main'
+|\ \ \ \ \ \  
+| * | | | | | f49e2ad fixed lint errors (build will pass)
+| * | | | | |   024a2c5 Merge branch 'main' into CVBuilder
+| |\ \ \ \ \ \  
+| |/ / / / / /  
+|/| | | / / /   
+| | |_|/ / /    
+| |/| | | |     
+* | | | | |   14f604c Merge branch 'pipelineFix' into 'main'
+|\ \ \ \ \ \  
+| * | | | | | 9b85f26 minor tweaks (to hopefully make this work)
+| * | | | | | b67f96a deleted package-lock
+| * | | | | | 5b873d5 removed export from build script (transitioning to dynamic hosting)
+| * | | | | | 8aa031b fixed build
+| * | | | | |   5db431b Merge branch 'main' into pipelineFix
+| |\ \ \ \ \ \  
+| |/ / / / / /  
+|/| | | | | |   
+* | | | | | |   a53899f Merge branch 'testSuite' into 'main'
+|\ \ \ \ \ \ \  
+| |_|_|_|/ / /  
+|/| | | | | /   
+| | |_|_|_|/    
+| |/| | | |     
+| * | | | | b9e0160 added signup and login tests
+| * | | | | bf99b7c added signup and login tests
+| * | | | |   cc52587 added signup and login tests
+| |\ \ \ \ \  
+| | | |_|_|/  
+| | |/| | |   
+| | * | | | e99e6c7 started navigating tests
+| | | |_|/  
+| | |/| |   
+| * / | | 9185c64 created login tests
+|  / / /  
+| | * | 207d3cb final eslint errors fixed (relating to hooks)
+| | * | ecd4c4b Two errors left
+| | * | 176fa28 fix1e
+| | * | 2423416 fix1d
+| | * | 12d96bb fix1c
+| | * | cd514c7 fix1b
+| | * | 63c5bd0 fix1
+| | | * 1ece0c9 Linked profile to dropdown
+| | | * 9cbf2ee Fixed profile bad import
+| | | *   f71d95e Merge branch 'main' into CVBuilder merged main
+| | | |\  
+| |_|_|/  
+|/| | |   
+* | | |   5f52c96 Merge branch 'profile' into 'main'
+|\ \ \ \  
+| |/ / /  
+|/| | |   
+| * | | 45e1792 added profile page
+|/ / /  
+| | * 5b1bb59 Fixed restricted choice types
+| | * 83cc8a2 Styling the page for consistency
+| | * 8481f0a Fixed Skills search
+| | * 74b691b Hook spelling error caused a bit of a problem
+| | *   9fce48a Merge branch 'main' into 'CVBuilder'
+| | |\  
+| |_|/  
+|/| |   
+* | |   462ded2 Merge branch 'jake' into 'main'
+|\ \ \  
+| |/ /  
+|/| |   
+| * | 1eb8b3b menu closes when click outside
+| * | 21226b8 new default profile page
+| * | 074903c moved useModal to hooks
+|/ /  
+| * 3c61976 Updated CV Builder and functionality for CV Building Now Works
+| * 4d0453a First attempt at PDF Export
+| * 39c5c53 Fixed logic for searching, now onto creating a pdf
+| * 55c845a Encapsulated SearchBar. Starting on fixing loading logic before creating pdf
+| * d3deb1f Created Delete User Page
+| * b0f7c02 Fixed Chevron Sliders and added an apply button
+|/  
+*   e7838ce Merge branch 'review' into 'main'
+|\  
+| * dd484aa added todo comment
+| * ec3cecd various very minor changes
+| * d052149 refactored modal into hook
+| * 0ba7f59 installed eslint
+| * 19f7119 added svg loader (SVGR)
+| * 2b96ffe moved icons to their own folder
+| * 12089ab cleaned up imports in all files
+| * 24b421e cleaned up types
+|/  
+*   800df61 Merge branch 'newSwipe' into 'main'
+|\  
+| * b9e469b Added a more button to open modal
+| * 8dc463b Added rotation to the transition but can be changed later
+| * 1ede7ae Removed left in debug LoC
+| * 578a320 Finished work on swipe (animations working)
+| * fc0308a Fixed Animations for Swipe page
+| * e3c4555 Added Login Check to Swipe page
+| * 35b5a06 Changed pictures
+| * a288969 Started working on animations
+| * ad4d1f2 Functionality Done, Need to Build Advert and animate swipes
+| * a55fac7 Swipe Functionality
+| *   c980b26 Merge branch 'authentication' of stgit.dcs.gla.ac.uk:team-project-h/2022/sh21/sh21-main into authentication
+| |\  
+| | * abef607 cleaned up sign-up-finish page
+| | *   7ea57f7 Merge branch 'authentication' of https://stgit.dcs.gla.ac.uk/team-project-h/2022/sh21/sh21-main into authentication
+| | |\  
+| | | * f2ee209 Forgot Password email working
+| | * | 7cf8083 email verification added
+| | |/  
+| * / 6ca0418 Input Validation
+| |/  
+| * afca729 Authentication completed (... for now)
+| * 44adca8 fixed issue where auth state was not reactive
+| * 8d37339 fixed header component now encapsulates login state for pfp
+| * f50eb03 Successfully signing up and creating account on the firebase
+* | e8f795b Merge branch 'calum' into 'main'
+|\| 
+| * 9ceef11 Fixed modal positioning
+| * a4c64c8 Update chevron
+| * 7dc00a4 Old Homepage file in there, deleted for now.
+| * b6ffa77 Fixed bug, should now build
+| * 68a5f36 Added TODO for CV
+| *   cafea76 Merge with main
+| |\  
+| |/  
+|/|   
+* | d0dc67e changed test docker image to include chrome (for headless tests)
+* | 7859953 Pipeline fixed test script so that it now builds website before running tests.
+* | a8550f4 attempting to fix pipline
+* | 0e6b95a added npm image (so npm can be found for pipeline)
+* | cba6caf fixed test:headless so that it now halts
+* | 9df46cd root tsconfig amended to ignore tests
+| * ae29eb9 Changed Chevron Style and Scroll for aesthetics
+| * eb2b61a Started Work on Authentication and Context
+| * 9e44289 Added Controls for Slider, and started working on authentication
+| * 45da490 Used fakes and implemented them, introduced limits and scrollable properties to collections and worked on discover page
+| * e90decd Changed fakes to be of the actual jobs type and added extra valid data for all required field
+| * a26058a Added custom thumbnails
+| * 15716cf Updated gitignore
+| * ee15f31 Removed MP4
+| * 2c188eb Added Fakes of Jobs, connected them to modal and embedded video. Also sorted out closing modal by clicking off
+| * 075d8f1 Set default state to not logged in
+| * a911df7 Fixed Consistency Issue with logged in header
+| * c3ee274 Renamed Files to convention and added login toggle
+| * 029fc1a Added Modal as forgot to on discover page
+| * 7d65804 Created New Component for the job collections, populated the discover page, and added job as a typescript type
+| * 01b426c Fixed Submit Button Layout on CV Page
+| * 3b06d86 Changed Index Page to more accurately represent Figma
+| * 2b47200 Hid Scrollbar by introducing new Tailwind Classes
+|/  
+*   2c7af5d Updated from main
+|\  
+| *   16aa81c Merge branch 'alfie' into 'main'
+| |\  
+| | *   1797bbf merged in new header
+| | |\  
+| | |/  
+| |/|   
+| * |   019bcc3 merged changes in with new modal
+| |\ \  
+| | * | dff9951 Fixed layouts for homepage
+| | * | a124130 hompage updates
+| | * | 930c9d3 Homepage work
+| * | |   b0a1630 Merge branch 'holly' (modal work) into main
+| |\ \ \  
+| | |/ /  
+| |/| |   
+| | * | e8be2e1 fixed styling on JobModal
+| | * | b6b711e Fixed bg
+| | * | 839f6b3 Merge from main branch
+| | * | 5a6886a Modal Work
+| * | |   dd3c030 Merge branch 'Jake' into 'main'
+| |\ \ \  
+| | * | | 401315d updated gitlab job, now includes CI tests
+| | * | | e10d9c7 fixed cypress headless
+| | | | * 9d55f0d Dropdown stuff
+| | | |/  
+* | | | 46c7698 Work on CV
+* | | | ce04598 Autocomplete Search for Universities API
+* | | | ef65365 Fixed Layouts
+|/ / /  
+* | | 24f77c7 Merge branch 'Jake' into 'main'
+|\| | 
+| * | aeadc88 created types for bobbll skills api
+| * | a9683e4 updated pipeline
+|/ /  
+* | 740085d Update .gitlab-ci.yml file
+* |   45682d9 Merge branch 'Jake' into 'main'
+|\ \  
+| * \   46fc00e Merge branch 'main' into Jake
+| |\ \  
+| |/ /  
+|/| |   
+* | |   214e3f5 Merge branch '2557035m-main-patch-69184' into 'main'
+|\ \ \  
+| * \ \   237692f Merge branch 'main' into '2557035m-main-patch-69184'
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   efedff4 Merge branch 'calum' into 'main'
+|\ \ \ \  
+| |_|_|/  
+|/| | |   
+| * | | a23059e Fixed bg
+| * | | 7d2a283 Create Layout Component
+| * | | ca6ba78 Closes #46
+| * | | f56e15f Closes #31
+| * | | 79db6fb Added New Pages and Routing between them
+| * | | 6fcae99 Created NavBar
+|/ / /  
+| * | 34cc377 Closes #6 (Creates .gitignore)
+| | * 6a77714 updated recommended extensions
+| | * e2e6559 linked to firebase project; setup hosting
+| |/  
+|/|   
+* | f016318 reviewed readme Closes #27
+* | c7e6231 added extensions updated gitignore to add extensions closes #28
+* | a2857b5 added and configured tailwindcss for styling
+* |   1b1f28c Merge branch 'main' of https://stgit.dcs.gla.ac.uk/team-project-h/2022/sh21/sh21-main
+|\ \  
+| * | e6141db Initialised Next Project Task #16 1
+* | | 859fb29 Initialised Next Project closes #24
+|/ /  
+* | 3b34fa0 Created project README
+* | 2055389 Update .gitignore
+|/  
+* 9770a41 Initial commit
